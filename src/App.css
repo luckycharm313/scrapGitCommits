@@ -23,7 +23,6 @@ html {
 body {
   height: 100%;
   margin: 0px;
-  background: url('../public/bg.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +36,6 @@ body {
   color: #073350;
   font-size: 31px;
   font-weight: 600;
-  text-align: center;
 }
 .btn-main {
   background-color: #0F5481;

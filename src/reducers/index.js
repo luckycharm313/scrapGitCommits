@@ -10,7 +10,7 @@ const rootReducer = combineReducers({
 });
 
 const persistConfig = {
-  key: '@ski-root',
+  key: '@git-root',
   storage,
 }
 

@@ -8,10 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 const { store, persistor } = getStore()
 
 ReactDOM.render(
-  <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
+  <Provider store={store}>    
       <App />
-    </PersistGate>
   </Provider>,
   document.getElementById('root')
 );
