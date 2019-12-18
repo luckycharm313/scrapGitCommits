@@ -1,0 +1,72 @@
+/* PAGE */
+@font-face {
+  font-family: 'thebold';
+  src: url('../public/theboldfont.ttf')  format('truetype');
+}
+/*****
+white: '#FFFFFF',
+greyDark : '#505254',
+textHintColor: 'rgba(0,0,0,0.22)',
+primary : '#0F5481',
+primaryDark : '#073350',
+darkWhite : '#F2F6F8',
+secondary : '#FA4F10',
+darkBlue : '#B9CDD9',
+lightPrimary : '#D7EDFA',
+lightBlue : '#E8F1F8',
+red : '#FF0000',
+*/
+html {
+  height: 100%;
+  margin: 0px;
+}
+body {
+  height: 100%;
+  margin: 0px;
+  background: url('../public/bg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: '#2c2c2c';
+}
+#root {
+  height: 100%;
+}
+.page-title {
+  color: #073350;
+  font-size: 31px;
+  font-weight: 600;
+  text-align: center;
+}
+.btn-main {
+  background-color: #0F5481;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 12px 25px;
+  width: 50%;
+  margin: 10px auto 0px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.back-navbar {
+  top: 12px;
+  padding: 8px 8px 8px 0px;
+  font-size: 17px;
+  color: #0F5481;
+}
+.input-text {
+  width: 100%;
+  background-color: #D7EDFA;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: #0F5481;
+  outline: none;
+}
+.input-text::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #B9CDD9;
+  opacity: 1; /* Firefox */
+}
